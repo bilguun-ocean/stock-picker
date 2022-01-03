@@ -20,3 +20,8 @@ def stock_picker(array)
     end
     highest_index
 end
+
+array = [17, 3, 6, 9, 15, 8, 5, 1, 10]
+
+stock_picker(array)
+# => [1, 4]
